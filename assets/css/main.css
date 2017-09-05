@@ -1,0 +1,58 @@
+body{
+	font-family: "Monserrat",sans-serif;
+	background: #f06e6e;
+	color: #6b0707;
+}
+img{
+	width: 100%;
+	border: 6px solid #bd023b;
+	padding: 2%;
+}
+#centro_civico{
+	padding: 5%;
+}
+.titulo{
+	text-align: center;
+	margin: 3%;
+	text-decoration: underline;
+}
+.civico h2{
+	text-align: center;
+	margin: 2%;
+}
+.civico p{
+	font-size: 20px;
+	padding: 5%;
+	text-align: justify;
+}
+
+
+/*Cuando nuestra pantalla es 535 y 824 */
+@media (min-width: 535px) and (max-width: 824px) {
+	[class*="col-"]{
+		width: 100%;
+	}
+	body{
+		background: black;
+		font-family: "Lobster", cursive;
+		color: white;
+	}
+	img{
+		border: 6px solid white;
+	}
+}
+/*Cuando nustra pantalla es 200 y 534*/
+@media (min-width: 200px) and (max-width: 534px) {
+	[class*="col-"]{
+		width: 100%;
+	}
+	body{
+		background: #07b399;
+		font-family: "Indice Flower", cursive;
+		color: #dfdfdf;
+	}
+	img{
+		display: none;;
+	}
+	
+}
